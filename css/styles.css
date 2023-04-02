@@ -1,0 +1,17 @@
+header {
+  background-color: rgb(24, 255, 55);
+}
+
+.container {
+  border: solid 2px #FFDBDB;
+}
+
+.mt-10 {
+  margin-top: 10rem !important;
+}
+
+h1 {
+  color: #C32323;
+}
+
+/*# sourceMappingURL=styles.css.map */

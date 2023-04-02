@@ -1,0 +1,17 @@
+$pink-color: #FFDBDB;
+$red-color:#C32323;
+
+header {
+   background-color: rgb(24, 255, 55);
+}
+
+.container {
+    border: solid 2px $pink-color;
+}
+.mt-10 {
+    margin-top: 10rem !important;
+}
+
+h1 {
+    color: $red-color;
+}

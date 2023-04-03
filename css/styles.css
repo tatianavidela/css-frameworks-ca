@@ -1,17 +1,75 @@
-header {
-  background-color: rgb(24, 255, 55);
+nav {
+  background-color: #FFDBDB !important;
+  font-weight: bold;
 }
 
-.container {
+.navbar-brand {
+  color: #C32323;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  color: #C32323;
+  text-transform: uppercase;
+}
+
+.btn-outline-success {
+  border-color: #C32323;
+  color: #C32323;
+}
+
+.btn-outline-success:hover {
+  background-color: #C32323;
+  border-color: #C32323;
+}
+
+* {
+  font-family: "Helvetica Neue", arial;
+}
+
+.authentication-page .container {
   border: solid 2px #FFDBDB;
+  border-radius: 15px;
 }
 
 .mt-10 {
   margin-top: 10rem !important;
 }
 
-h1 {
+.form-label {
+  font-family: "Helvetica Neue", arial;
+  color: #707070;
+}
+
+.form.control {
+  border: solid 1px #707070;
+}
+
+.authentication-page .btn {
   color: #C32323;
+  background-color: #FFDBDB;
+  border: none;
+  box-shadow: 1px 1px 3px #bdbdbd;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.authentication-page input {
+  box-shadow: 1px 1px 3px #bdbdbd;
+}
+
+h1 {
+  color: #C32323 !important;
+}
+
+.feed-form .btn {
+  background-color: #FFDBDB;
+  border-color: #FFDBDB;
+  color: #C32323;
+}
+
+.feed .card {
+  border: solid 1px #FFDBDB;
 }
 
 /*# sourceMappingURL=styles.css.map */

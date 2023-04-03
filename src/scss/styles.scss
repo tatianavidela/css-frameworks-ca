@@ -1,17 +1,79 @@
 $pink-color: #FFDBDB;
 $red-color:#C32323;
+$text-grey:#707070;
+$text-grey-light:#EAEAEA;
+$text-black:#000000;
 
-header {
-   background-color: rgb(24, 255, 55);
+$primary-text: 'Helvetica Neue', arial;
+
+nav{
+    background-color: $pink-color !important;
+    font-weight: bold;
 }
 
-.container {
+.navbar-brand { 
+    color: $red-color;
+    text-transform: uppercase;
+}
+.nav-link {
+    color: $red-color;
+    text-transform: uppercase;
+}
+
+.btn-outline-success{
+    border-color: $red-color;
+    color: $red-color;
+}
+.btn-outline-success:hover {
+    background-color: $red-color;
+    border-color: $red-color;
+}
+
+
+
+
+* {
+    font-family: $primary-text;
+}
+
+
+.authentication-page .container {
     border: solid 2px $pink-color;
+    border-radius: 15px; 
 }
 .mt-10 {
     margin-top: 10rem !important;
 }
+.form-label {
+    font-family: $primary-text;
+    color: $text-grey;
+}
+.form.control {
+    border: solid 1px $text-grey;
+}
+.authentication-page .btn{
+    color: $red-color;
+    background-color: $pink-color;
+    border: none;
+    box-shadow: 1px 1px 3px #bdbdbd;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.authentication-page input {
+    box-shadow: 1px 1px 3px #bdbdbd
+}
 
 h1 {
+    color: $red-color !important;
+}
+
+.feed-form .btn {
+    background-color: $pink-color;
+    border-color: $pink-color;
     color: $red-color;
+}
+
+.feed .card {
+    border: solid 1px $pink-color ;
+  
 }

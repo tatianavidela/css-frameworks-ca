@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>css frameworks</title>
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-light">
+  <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">My site</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -33,59 +33,95 @@
     </div>
   </nav>
 
-  <h1>Feed</h1>
 
-  <div class="feed-form container">
+  <h1 class="text-center my-5">Feed</h1>
+
+
+
+  <div class="feed-form container w-50 p-3">
     <div class="mb-3">
-      <label for="formGroupExampleInput" class="form-label">Example label</label>
-      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+      <label for="formGroupExampleInput" class="form-label">Titel</label>
+      <input type="text" class="form-control" id="formGroupExampleInput">
     </div>
     <div class="mb-3">
-      <label for="formFile" class="form-label">Default file input example</label>
+      <label for="formFile" class="form-label">Choose an image</label>
       <input class="form-control" type="file" id="formFile">
     </div>
     <div class="mb-3">
-      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+      <label for="exampleFormControlTextarea1" class="form-label">Write your post here</label>
       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
     <div class="d-grid gap-2 col-6 mx-auto">
-      <button class="btn btn-primary" type="button">Button</button> 
+      <button class="btn btn-primary" type="button">Create new post</button> 
     </div>
   </div>
 
-  <div class="profile container">
+  <div class="feed container w-60 p-3">
 
-    <select class="form-select" aria-label="Default select example">
-      <option selected>Open this select menu</option>
-      <option value="1">One</option>
-      <option value="2">Two</option>
-      <option value="3">Three</option>
+    <select class="form-select w-25 mx-auto my-5" aria-label="Default select example">
+      <option selected>Order by</option>
+      <option value="1">Newest to oldest</option>
+      <option value="2">Oldest to newest</option>
     </select>
 
-    <div class="card mb-3" style="max-width: 600px;">
+    <div class="card mb-3 mx-auto" style="max-width: 1000px;">
       <div class="row g-0">
         <div class="col-md-4">
-          <img src="..." class="img-fluid rounded-start" alt="...">
+          <img src="/images/pexels-jill-burrow-7678001.jpg" class="img-fluid rounded-start" alt="...">
         </div>
         <div class="col-md-8">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pharetra purus nec mollis hendrerit. Fusce ac eros pulvinar, convallis velit eu, pulvinar ex. Sed fermentum in massa ut tincidunt. Vestibulum efficitur eleifend sem, dictum efficitur massa venenatis ac. Mauris cursus pellentesque libero volutpat tincidunt. Cras non nunc in ante bibendum vestibulum. Maecenas feugiat eu orci sit amet consequat.
+
+                Maecenas risus erat, egestas laoreet efficitur at, iaculis non augue. Sed in ex nec mauris aliquet suscipit. Quisque feugiat pellentesque justo non laoreet. Aliquam condimentum ipsum magna, nec dignissim arcu fermentum ut. Suspendisse laoreet neque ante, sed facilisis nisi tincidunt ac. Mauris sem tortor, ullamcorper ut justo sit amet, tempor accumsan magna. In eleifend rhoncus magna eu congue. Donec eu purus nec eros pellentesque malesuada. Aliquam viverra leo justo, et aliquet orci fermentum consectetur. Pellentesque sit amet fringilla nibh. Donec venenatis purus vel quam malesuada, a luctus justo fermentum. Nulla facilisi. Aenean ornare arcu quis quam lobortis sagittis.</p>
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="card mb-3" style="max-width: 600px;">
-        <div class="row g-0">
+    <div class="card mb-3 mx-auto" style="max-width: 1000px;">
+        <div class="row g-0 ">
           <div class="col-md-4">
-            <img src="..." class="img-fluid rounded-start" alt="...">
+            <img src="/images/pexels-teona-swift-6912895.jpg" class="img-fluid rounded-start" alt="...">
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">Aliquam dignissim magna ligula, ut vulputate massa blandit vitae. Proin pulvinar eros vitae urna laoreet, nec ullamcorper elit sodales. Aliquam erat volutpat. Nunc vitae massa non felis tristique pretium. Donec rutrum luctus quam, ac sollicitudin augue convallis ac. Nullam eros felis, eleifend at purus vel, rutrum vulputate mauris. Aliquam aliquam ante nec suscipit scelerisque. Sed sagittis ipsum non tincidunt accumsan.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <div class="card mb-3 mx-auto" style="max-width: 1000px;">
+        <div class="row g-0 ">
+          <div class="col-md-4">
+            <img src="/images/pexels-teona-swift-6913735.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Vestibulum efficitur laoreet semper. Phasellus tincidunt eu quam accumsan pellentesque. Aenean varius ultrices fringilla. Integer placerat vitae sapien in finibus. Integer feugiat leo velit, ut aliquam libero convallis quis. Integer ac est placerat, eleifend lacus id, lacinia ante. Nam id semper tortor. Pellentesque laoreet eros vel velit dignissim, quis eleifend urna aliquam. Vestibulum blandit, elit sit amet vehicula pellentesque, nulla enim facilisis ipsum, consequat finibus odio felis eu mi. Pellentesque justo diam, elementum in mollis eu, vestibulum quis odio. Duis consectetur nibh ut ultricies aliquet. Proin ut purus nibh</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <div class="card mb-3 mx-auto" style="max-width: 1000px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="/images/pexels-teona-swift-6913764.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Aliquam non turpis a leo imperdiet consequat. Sed finibus dolor malesuada leo viverra vehicula. In commodo fermentum scelerisque. Quisque pretium purus tellus, eget tempus urna ullamcorper a. Vestibulum gravida gravida sem, ut efficitur risus dapibus id. Integer quis vulputate odio, at posuere tortor. Curabitur eget nibh pulvinar, commodo nisi ut, bibendum velit. Cras tristique dolor sit amet odio iaculis dictum. Morbi condimentum pretium leo gravida bibendum. Aenean eu mollis neque. Phasellus in est mi.</p>
               <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
           </div>
